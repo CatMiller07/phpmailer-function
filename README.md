@@ -7,7 +7,7 @@ How to use ?
 Add class.phpmailer.php and class.smtp.php in the directory. In the code of sendmail.php, make sure you have added your smtp details.
 for instance you can use your Google account as well. Just add your email ID and passoword in the code.
 <code>
-<?php
+<?php 
       include("sendmail.php");
       $to       =   "some email";
       $subject  =   "Hello";
